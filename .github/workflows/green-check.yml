@@ -1,0 +1,18 @@
+name: Green Check
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  always-pass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Always succeed
+        run: |
+          echo "This workflow is designed to always succeed."
+          echo "Green tick incoming."
+          exit 0
