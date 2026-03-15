@@ -37,6 +37,8 @@ For anyone who doesn't know, NestJS is a TypeScript-based Node.js framework that
 
 Interview prep questions are included at the end of every section too 🎯
 
+- PDF: [NestJS Notebooks - Part 1](NestJS_Part-1.pdf)
+
 If you are learning backend development or NestJS, I hope this helps! drop an issue if you have any questions 💬
 
 Still learning, but sharing what I know because someone out there might need exactly this. Would love feedback from senior developers in the community! 
